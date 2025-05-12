@@ -39,4 +39,6 @@ So, that's what I did... I trained an NN to classify my Stravinsky-inspired musi
 - Try to go backwards to make a generative model (generate the `numpy` arrays and patch that back together as a MusicXML file
 - Use this to generate MusicXML files that I manually import into Sibelius
 - Try to write a plugin for Musescore, the best open source music notation software, and if that goes well, see if proprietary software like Sibelius or Dorico would be interested
+
+I automated the proprocessing pipeline after training the classifier, so some cells of the model's Jupyter notebook won't work. Feel free to contact me (leahmchilders@gmail.com) if you want any help stringing the classifier together with the data processing files I provided - you'll need to change all the path definitions to be yours instead of mine, and you may want to toggle the git features.
   
