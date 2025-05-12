@@ -3,7 +3,7 @@ This is a project I worked on for many months before putting it on hold to start
 - Generate music notation from text prompts
 - Autocomplete suggestions and patterns just like Copilot
 
-This tool would be an extension added on top of an already existing music notation software such as Sibelius, Dorico, or Musescore (rip Finale). As such, a model would need to generate either proper MusicXMl or MIDI, and given I am a classical musician and composer, I prefer MusicXML because it is substantiall better than MIDI for sheet music. I am not interested in audio generation, I am interested in sheet music generation.
+This tool would be an extension added on top of an already existing music notation software such as Sibelius, Dorico, or Musescore (rip Finale). As such, a model would need to generate either proper MusicXMl or MIDI, and given I am a classical musician and composer, I prefer MusicXML because it is substantially better than MIDI for sheet music. I am not interested in audio generation, I am interested in sheet music generation.
 
 Given what is currently available, I realized I would be building and training the model from scratch, and I had no idea if this concept would even be possible. Here is the progress I made on proof of concept, the limitations and obstacles I hit, and possible next steps for anyone who comes across this repo curious about building something similar.
 
@@ -13,7 +13,7 @@ Unfortunately, it turns out that unlike MIDI, there is not a large surplus of hi
 - [IMSLP](https://imslp.org/wiki/Main_Page) has some MusicXML files scattered among their scores, but they're not very easy to find
 - [Musescore](https://musescore.com/sheetmusic) does have some MusicXML files you can download, but the quality is iffy because most are user-generated
 - [Noteflight](https://noteflight.com) has the same issues as Musescore
-- [Musicalion](https://www.musicalion.com/) was the best place for MusicXML files, but they don't have nearly as many composers as you'd want for training a model like this. You have to either pay (not very expensive) or contribute (each contribution gives 2 weeks of free access) to access the MusicXML files on this website. I contributed for exactly this purpose so you can now find my [Clarinet and Piano Duet No. 1](https://www.musicalion.com/en/scores/sheet-music/266819/leah-childers/80770/duet-for-clarinet-and-piano-no-1#interpretation=1) here :)
+- [Musicalion](https://www.musicalion.com/) was the best place for MusicXML files, but they don't have nearly as many composers as you'd want for training a model like this. You also have to either pay (not very expensive) or contribute (each contribution gives 2 weeks of free access) to access the MusicXML files on this website. I contributed for exactly this purpose so you can now find my [Clarinet and Piano Duet No. 1](https://www.musicalion.com/en/scores/sheet-music/266819/leah-childers/80770/duet-for-clarinet-and-piano-no-1#interpretation=1) here :)
 - While I didn't use it because I hadn't gotten to collecting choir music yet, [CPDL](https://www.cpdl.org/wiki/) seems promising for choir MusicXML files
 - This [Github repo from DCMLab](https://github.com/DCMLab/schema_annotation_data) contains some Mozart Piano Sonatas
 
