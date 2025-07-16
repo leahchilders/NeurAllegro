@@ -3,7 +3,7 @@ This is a project I worked on for many months before putting it on hold to start
 - Generate music notation from text prompts
 - Autocomplete suggestions and patterns just like Copilot
 
-This tool would be an extension added on top of an already existing music notation software such as Sibelius, Dorico, or Musescore (rip Finale). As such, a model would need to generate either proper MusicXMl or MIDI, and given I am a classical musician and composer, I prefer MusicXML because it is substantially better than MIDI for sheet music. I am not interested in audio generation, I am interested in sheet music generation.
+This tool would be an extension added on top of an already existing music notation software such as Sibelius, Dorico, or Musescore (rip Finale). As such, a model would need to generate either proper MusicXML or MIDI, and given I am a classical musician and composer, I prefer MusicXML because it is substantially better than MIDI for sheet music. I am not interested in audio generation, I am interested in sheet music generation.
 
 Given what is currently available, I realized I would be building and training the model from scratch, and I had no idea if this concept would even be possible. Here is the progress I made on proof of concept, the limitations and obstacles I hit, and possible next steps for anyone who comes across this repo curious about building something similar.
 
