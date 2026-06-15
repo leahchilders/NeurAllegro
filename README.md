@@ -1,7 +1,7 @@
 
 **This is NeurAllegro v1 — an early proof-of-concept for a different architecture (a GRU composer-classifier), no longer the active project, just still posted for archiving purposes.** 
 
-The current work — **NeurAllegro 2.0**, a deterministic MusicXML→token tokenizer/encoder for music notation lives here: **https://github.com/leahchilders/NeurAllegro-2.0** *(2.0 is being prepared for public release; the repo will populate once benchmarking is complete.)*
+The current work — **NeurAllegro 2.0**, a deterministic MusicXML→token tokenizer/encoder for music notation lives here: **https://github.com/leahchilders/NeurAllegro-tokenizer** *(2.0 is being prepared for public release; the repo will populate once benchmarking is complete.)*
 
 -----
 
