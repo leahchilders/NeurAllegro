@@ -1,3 +1,10 @@
+
+**This is NeurAllegro v1 — an early proof-of-concept for a different architecture (a GRU composer-classifier), no longer the active project, just still posted for archiving purposes.** 
+
+The current work — **NeurAllegro 2.0**, a deterministic MusicXML→token tokenizer/encoder for music notation lives here: **https://github.com/leahchilders/NeurAllegro-2.0** *(2.0 is being prepared for public release; the repo will populate once benchmarking is complete.)*
+
+-----
+
 # NeurAllegro
 This is a project I worked on for many months before putting it on hold to start a different side project. The big goal of this project was to create a tool similar to Github Copilot which can:
 - Generate music notation from text prompts
